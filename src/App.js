@@ -1,6 +1,7 @@
 import './App.css';
 import Boton from './components/Boton';
 import Pantalla from './components/Pantalla';
+import BotonClear from './components/BotonClear';
 import freeCodeCampLogo from './images/freecodecamp-logo.png';
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
           <Boton>/</Boton>
         </div>
         <div className='fila'>
-
+          <BotonClear>Clear</BotonClear>
         </div>
       </div>
     </div>
