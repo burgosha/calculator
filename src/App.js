@@ -8,7 +8,7 @@ import { evaluate } from 'mathjs';
 
 function App() {
   const [input, setInput] = useState('');
-  const agregarInput = val => {
+  const agregarInput = val => {  
     setInput(input + val);
   };
   const calcularResultado = () => {
